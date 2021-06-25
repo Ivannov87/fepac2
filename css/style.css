@@ -2743,12 +2743,15 @@ footer {
           color: #ffffff;
           border-color: #092ace; }
 .header_3 .intro_wrapper {
-  background: #74003D; /*url("../images/fepac.png") no-repeat center center;*/
+   /* background: #74003D; rgba(116, 0, 61, 0.5); */
   /* background: url("../images/fepac.png") no-repeat center center; */
-  min-height: 10px;
-  background-size: cover;
+  background:url("../images/ipn_back.png") no-repeat center ;
+  
+  background-size:cover ;
   position: relative;
-  padding: 0 0 0 0 ; }
+  padding: 100px 100px -12px -24px ; 
+}
+
   .header_3 .intro_wrapper:before {
     background: transparent;
     content: "";
