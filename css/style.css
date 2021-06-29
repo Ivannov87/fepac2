@@ -98,7 +98,9 @@ h6 {
   color: #333146;
   font-family: "Poppins", sans-serif;
   margin: 0; }
-
+.logo a {
+  color: #e78b45;
+}
 h2 {
   font-weight: 700;
   font-size: 36px; }
@@ -1667,7 +1669,8 @@ header {
       padding: 0 40px; }
 
 footer {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background:#c0bfc0;
   position: relative;
   z-index: 1;
   padding: 0 0 150px 0;
@@ -2745,11 +2748,13 @@ footer {
 .header_3 .intro_wrapper {
    /* background: #74003D; rgba(116, 0, 61, 0.5); */
   /* background: url("../images/fepac.png") no-repeat center center; */
-  background:url("../images/ipn_back.png") no-repeat center ;
+  background:url("../images/fomento.png") no-repeat center ;
   
-  background-size:cover ;
-  position: relative;
-  padding: 100px 100px -12px -24px ; 
+  background-size:auto ;
+  position:relative;
+  box-shadow: 0 0 10px  white;
+  padding: 100px 0 0 0;
+  /* padding: 10px 10px -10px -10px ;  */
 }
 
   .header_3 .intro_wrapper:before {
@@ -4392,13 +4397,13 @@ footer {
             margin: 0;
             font-size: 25px;
             font-weight: 700;
-            color: #ff5a2c;
+            color: #e78b45;
             margin-bottom: 5px;
             position: relative; }
             .contact_info_wrapper .contact_info .event_location_info ul li .info_title:before {
               position: absolute;
               content: "";
-              background: #ff5a2c;
+              background: #e78b45;
               height: 3px;
               width: 50px;
               left: -90px;
@@ -4472,7 +4477,7 @@ footer {
     padding: 0 40px;
     font-size: 14px;
     font-weight: 500;
-    background: #092ace;
+    background: #74003D;
     text-transform: uppercase;
     border: none;
     border-radius: 5px;
@@ -4486,7 +4491,7 @@ footer {
     transition: all 0.3s ease-in-out;
     font-family: "Rubik", sans-serif; }
     .contact_info_wrapper .contact_form_wrapper .leave_comment .submit-btn button:hover {
-      background: #ff5a2c; }
+      background: #e78b45; }
 
 .google_map #map {
   -webkit-box-shadow: 5px 9px 49px 0px rgba(47, 47, 47, 0.08);
